@@ -1,0 +1,35 @@
+.hidden {
+  display: none;
+}
+
+.search-select {
+  width: 30%;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
+}
+
+.search-select select {
+  width: 100%;
+  height: 100%;
+  padding-right: 30px;
+  border-radius: 20px;
+  /* Bordas redondas */
+  appearance: none;
+  /* Remove a aparência padrão do select */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 20px;
+  /* Move o texto 20px para a direita */
+}
+
+.search-select::before {
+  content: "\1F50E";
+  /* código Unicode para o ícone da lupa */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}

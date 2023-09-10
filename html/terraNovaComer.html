@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/timelineTerra.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/pesquisa.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/timeline.js"></script>
+
+    <title>Onde Comer</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="icone1" src="../imagens/Anchieta2.png" alt="">
+            <h1>ONDE COMER</h1>
+            <img id="icone2" src="../imagens/Prefeitura2.png" alt="">
+        </header>
+        <div id="menu">
+            <a href="index.html" class="pagina-futura">Home</a>
+            <a href="rotasVisitar.html" class="pagina-futura">O que Visitar</a>
+            <a href="rotasComer.html" class="pagina-atual">Onde Comer</a>
+            <a href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf" target="_blank"
+                class="pagina-futura">Projeto</a>
+        </div>
+        <hr>
+        <h1 id="timeline"></h1>
+        <h1 id="tituloTerra">Onde comer: Rota da Terra Nova</h1>
+
+        <!--Apresentação-->
+        <div class="container">
+            <span id="slide-img1"></span>
+            <span id="slide-img2"></span>
+            <span id="slide-img3"></span>
+            <div class="imagens">
+                <img id="slide-img1" src="../imagens/terra/terraComer-pontos.jpg" class="imagem">
+                <img id="slide-img2" src="../imagens/terra/terra_comer2.jpg" class="imagem">
+                <img id="slide-img3" src="../imagens/terra/terra_comer3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img1" class="botaoTerra"></a>
+                <a href="#slide-img2" class="botaoTerra"></a>
+                <a href="#slide-img3" class="botaoTerra"></a>
+            </div>
+        </div>
+
+        <!--Fazenda Japiapé-->
+        <div class="container hidden">
+            <span id="slide-img4"></span>
+            <span id="slide-img5"></span>
+            <span id="slide-img6"></span>
+            <div class="imagens">
+                <img id="slide-img4" src="../imagens/terra/Fazenda_Japiape1.jpg" class="imagem">
+                <img id="slide-img5" src="../imagens/terra/Fazenda_Japiape2.jpg" class="imagem">
+                <img id="slide-img6" src="../imagens/terra/Fazenda_Japiape3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img4" class="botaoTerra"></a>
+                <a href="#slide-img5" class="botaoTerra"></a>
+                <a href="#slide-img6" class="botaoTerra"></a>
+            </div>
+        </div>
+
+        <!--Quitutes da Tia Tereza-->
+        <div class="container hidden">
+            <span id="slide-img7"></span>
+            <span id="slide-img8"></span>
+            <span id="slide-img9"></span>
+            <div class="imagens">
+                <img id="slide-img7" src="../imagens/terra/Quitutes_da_Tia_Tereza1.jpg" class="imagem">
+                <img id="slide-img8" src="../imagens/terra/Quitutes_da_Tia_Tereza2.jpg" class="imagem">
+                <img id="slide-img9" src="../imagens/terra/Quitutes_da_Tia_Tereza3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img7" class="botaoTerra"></a>
+                <a href="#slide-img8" class="botaoTerra"></a>
+                <a href="#slide-img9" class="botaoTerra"></a>
+            </div>
+        </div>
+
+        <!--Rancho Restaurante-->
+        <div class="container hidden">
+            <span id="slide-img10"></span>
+            <span id="slide-img11"></span>
+            <span id="slide-img12"></span>
+            <div class="imagens">
+                <img id="slide-img10" src="../imagens/terra/Rancho_Restaurante1.jpg" class="imagem">
+                <img id="slide-img11" src="../imagens/terra/Rancho_Restaurante2.jpg" class="imagem">
+                <img id="slide-img12" src="../imagens/terra/Rancho_Restaurante3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img10" class="botaoTerra"></a>
+                <a href="#slide-img11" class="botaoTerra"></a>
+                <a href="#slide-img12" class="botaoTerra"></a>
+            </div>
+        </div>
+
+        <!--Restaurante Gambini-->
+        <div class="container hidden">
+            <span id="slide-img13"></span>
+            <span id="slide-img14"></span>
+            <span id="slide-img15"></span>
+            <div class="imagens">
+                <img id="slide-img13" src="../imagens/terra/Restaurante_Gambini1.jpg" class="imagem">
+                <img id="slide-img14" src="../imagens/terra/Restaurante_Gambini2.jpg" class="imagem">
+                <img id="slide-img15" src="../imagens/terra/Restaurante_Gambini3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img13" class="botaoTerra"></a>
+                <a href="#slide-img14" class="botaoTerra"></a>
+                <a href="#slide-img15" class="botaoTerra"></a>
+            </div>
+        </div>
+
+        <!--Restaurante Terra Nova-->
+        <div class="container hidden">
+            <span id="slide-img16"></span>
+            <span id="slide-img17"></span>
+            <span id="slide-img18"></span>
+            <div class="imagens">
+
+                <img id="slide-img16" src="../imagens/terra/Restaurante_Terra_Nova1.jpg" class="imagem">
+                <img id="slide-img17" src="../imagens/terra/Restaurante_Terra_Nova2.jpg" class="imagem">
+                <img id="slide-img18" src="../imagens/terra/Restaurante_Terra_Nova3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img16" class="botaoTerra"></a>
+                <a href="#slide-img17" class="botaoTerra"></a>
+                <a href="#slide-img18" class="botaoTerra"></a>
+            </div>
+        </div>
+
+        <h1 id="timeline"></h1>
+        <div class="flex-parent">
+            <div class="input-flex-container">
+                <div class="input time active">
+                    <span codigo-rota="Home" data-info="Apresentação"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="1" data-info="Fazenda Japiapé"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="2" data-info="Quitutes da Tia Tereza"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="3" data-info="Rancho Restaurante"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="4" data-info="Restaurante Gambini"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="5" data-info="Restaurante Terra Nova"></span>
+                </div>
+            </div>
+            <h1 id="timeline"></h1>
+            <div class="search-select">
+                <select id="selectDiv">
+                    <option value="p1">Apresentação</option>
+                    <option value="p2">Fazenda Japiapé</option>
+                    <option value="p3">Quitutes da Tia Tereza</option>
+                    <option value="p4">Rancho Restaurante</option>
+                    <option value="p5">Restaurante Gambini</option>
+                    <option value="p6">Restaurante Terra Nova</option>
+                </select>
+            </div>
+            <div class="description-flex-container">
+
+                <!--Apresentação-->
+                <div id="div1" class="container2">
+                    <p id="p1" class="paragrafo active">A Rota Terra Nova, em Jundiaí, São Paulo, é um ponto turístico
+                        encantador, cheio de história e cultura. É famosa por estar ligada ao Ciclo do Café, uma época
+                        em
+                        que o café era muito importante para a economia do Brasil.
+                        Ao percorrer essa rota, você encontrará fazendas de café antigas e casarões que eram moradia das
+                        famílias ricas daquela época. Esses prédios históricos são preservados e mostram como era a vida
+                        nos
+                        tempos em que o café era o "rei".
+                        Além das belas paisagens e construções antigas, a Rota Terra Nova é importante para a cultura
+                        caipira. Você poderá conhecer as danças, músicas e comidas típicas da região, uma verdadeira
+                        experiência cultural.
+                        Uma curiosidade interessante é que ainda é possível percorrer as antigas trilhas e estradas
+                        usadas
+                        para transportar o café até os portos de Santos e Rio de Janeiro. Imagine-se caminhando por
+                        esses
+                        caminhos históricos, conectando-se diretamente com o passado.
+
+                        Ao explorar a Rota Terra Nova, você fará uma viagem no tempo, onde a história se mistura com a
+                        beleza natural da região. Essa experiência enriquecedora certamente deixará lembranças
+                        duradouras e
+                        despertará o interesse pela preservação do nosso patrimônio cultural e histórico.
+                    </p>
+                </div>
+
+
+                <!--Fazenda Japiapé-->
+                <div id="div2" class="container2 hidden">
+                    <p id="p2" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Estrada Francisco Missé, 6000 – Jundiaí
+                        </li>
+                        <li>
+                            Telefone: (11) 97200-2549.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Sáb. e dom. das 11h30 às 15h30.
+                        </li>
+                        <li>
+                            Site: https:https://www.facebook.com/japiape/
+                        </li>
+                    </ul>
+
+                    Há 15 anos, o Japiapé visa proporcionar momentos agradáveis em contato com a natureza. Além de
+                    oferecer um excelente restaurante com comida típica caipira nos finais de semana, o local possui um
+                    ambiente rural e acolhedor. Os visitantes têm acesso a atividades de lazer, aventura e educação
+                    ambiental, incluindo trilhas ecológicas de aventura, tirolesa e um espaço dedicado às crianças.
+                    </p>
+                </div>
+
+
+                <!--Quitutes da Tia Tereza-->
+                <div id="div3" class="container2 hidden">
+                    <p id="p3" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Engenheiro Tasso Pinheiro, 2649 – Terra Nova
+                        </li>
+                        <li>
+                            Telefone: (11) 4599-9230.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Quarta e quinta das 19h às 21h. Sexta a domingo das 18h às 21h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/terranova/onde-comer/quitutes-tia-tereza/">https://rotasturisticas.jundiai.sp.gov.br/terranova/onde-comer/quitutes-tia-tereza/</a>
+                        </li>
+                    </ul>
+
+                    Descubra uma variedade deliciosa de doces, bolos confeitados, rosquinhas artesanais, pães frescos e
+                    chocolates caseiros, entre outras opções irresistíveis para satisfazer seu paladar.
+                    </p>
+                </div>
+
+
+                <!--Rancho Restaurante-->
+                <div id="div4" class="container2 hidden">
+                    <p id="p4" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Engenheiro Tasso Pinheiro, 1301 – Terra Nova
+                        </li>
+                        <li>
+                            Telefone: (11) 4537-2579.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. das 19h às 24h, Sáb das 12h às 16h e Dom. das 11h às 15h30.
+                        </li>
+                        <li>
+                            Site: <a href="https://www.ranchojundiai.com.br">https://www.ranchojundiai.com.br</a>
+                        </li>
+                    </ul>
+
+                    O rancho é conhecido por oferecer refeições preparadas por donas de casa, com temperos caseiros que
+                    conferem um sabor irresistível e único à comida. Sua tradição está enraizada na música sertaneja de
+                    qualidade da região, no qual recebeu diversos artistas e bandas renomadas. Atualmente, além dos
+                    eventos realizados, o rancho oferece porco no rolete às segundas-feiras, feijoada no sábado à tarde
+                    e almoço com a melhor comida caseira da região aos domingos. O rancho é uma referência quando se
+                    trata de lazer, diversão e boa comida.
+                    </p>
+                </div>
+
+
+                <!--Restaurante Gambini-->
+                <div id="div1" class="container2 hidden">
+                    <p id="p5" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Aristides Carra, 50 – Terra Nova
+                        </li>
+                        <li>
+                            Telefone: (11) 4599-9224.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Ter. a dom. das 8h às 18h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/terranova/onde-comer/restaurante-gambini/">https://rotasturisticas.jundiai.sp.gov.br/terranova/onde-comer/restaurante-gambini/</a>
+                        </li>
+                    </ul>
+
+                    O rancho é conhecido por oferecer refeições preparadas por donas de casa, com temperos caseiros que
+                    conferem um sabor irresistível e único à comida. Sua tradição está enraizada na música sertaneja de
+                    qualidade da região, no qual recebeu diversos artistas e bandas renomadas. Atualmente, além dos
+                    eventos realizados, o rancho oferece porco no rolete às segundas-feiras, feijoada no sábado à tarde
+                    e almoço com a melhor comida caseira da região aos domingos. O rancho é uma referência quando se
+                    trata de lazer, diversão e boa comida.
+                    </p>
+                </div>
+
+
+                <!--Restaurante Terra Nova-->
+                <div id="div1" class="container2 hidden">
+                    <p id="p6" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Aristides Carra, 650 – Terra Nova
+                        </li>
+                        <li>
+                            Telefone: (11) 4599-9030.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Sex. a Dom. e feriados das 8h às 18h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/terranova/onde-comer/restaurante-terra-nova/">https://rotasturisticas.jundiai.sp.gov.br/terranova/onde-comer/restaurante-terra-nova/</a>
+                        </li>
+                    </ul>
+
+                    O Restaurante Terra Nova oferece um ambiente de lazer completo, proporcionando aos visitantes a
+                    oportunidade de desfrutar de diversas atividades. O espaço conta com lagos destinados à pesca
+                    esportiva, permitindo que os entusiastas desfrutem dessa prática em um ambiente tranquilo e rural.
+                    Além disso, o restaurante oferece a possibilidade de passeios a cavalo pelo sítio, permitindo que os
+                    visitantes explorem a área e apreciem a beleza natural ao redor.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <footer id="rodape">
+            <p><a href="https://jundiai.sp.gov.br"> Prefeitura de Jundiaí</a> |<a href="https://www.anchieta.br">
+                    Unianchieta</a> | Desenvolvido por <a
+                    href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf">Conheça Jundiaí</a> | Todos os direitos
+                reservados</p>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container2 {
+    justify-content: center;
+}
+
+.imagens {
+    width: 300%;
+    height: 20%;
+    position: relative;
+    transition: left 2s;
+}
+
+.imagem {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 33.33%;
+}
+
+.botoes {
+    top: -20px;
+    position: relative;
+}
+
+.botaoHistorico {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #0072bc;
+}
+
+.botaoTerra {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #5ca47a;
+}
+
+.botaoVinho {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #533A71;
+}
+
+/* Apresentação  */
+#slide-img1:target~.imagens {
+    left: 0px;
+}
+
+#slide-img2:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img3:target~.imagens {
+    left: -200%;
+}
+
+/*  
+HistoricoVisitar
+    Companhia Paulista
+HistoricoComer 
+    Caiscanoa Bar e Restaurante
+TerraNovaVisitar
+    Clamar – Conservas Artesanais
+TerraNovaConer
+    Fazenda Japiapé
+VinhoVisitar
+    Adega Maziero
+VinhoComer
+    Open Tap
+*/
+#slide-img4:target~.imagens {
+    left: 0px;
+}
+
+#slide-img5:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img6:target~.imagens {
+    left: -200%;
+}
+
+/* 
+HistoricoVisitar
+    Clube Jundiaiense
+HistoricoComer 
+    Beatrice Boulangerie
+TerraNovaVisitar
+    Fazenda Japiapé
+TerraNovaConer
+    Quitutes da Tia Tereza
+VinhoVisitar
+    Adega Galvão
+VinhoComer
+    Veg Point - Spa e Restaurante Gourmet Vegetariano/Vegano
+*/
+#slide-img7:target~.imagens {
+    left: 0px;
+}
+
+#slide-img8:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img9:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Catedral Nossa Senhora do Desterro
+HistoricoComer 
+    Chopperia Palma
+TerraNovaVisitar
+    Haras Terra Nova
+TerraNovaConer
+    Rancho Restaurante
+VinhoVisitar
+    Adega Marquesin
+VinhoComer
+    Butequim du Marcelo Perto da Roça
+*/
+#slide-img10:target~.imagens {
+    left: 0px;
+}
+
+#slide-img11:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img12:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Museu Histórico e Cultural Solar do Barão
+HistoricoComer 
+    Restaurante Uhlen Haus
+TerraNovaVisitar
+    Igreja Bom Jesus da Pedra Fria
+TerraNovaConer
+    Restaurante Gambini
+VinhoVisitar
+    Adega Brunholi
+VinhoComer
+    Kiosque Roseira
+*/
+#slide-img13:target~.imagens {
+    left: 0px;
+}
+
+#slide-img14:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img15:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Antigo Mercado Municipal/Mercadão Ferroviários
+HistoricoComer 
+    Cantina Jundiaiense
+TerraNovaVisitar
+    Pavan Boutique do Porco
+TerraNovaConer
+    Restaurante Terra Nova
+VinhoVisitar
+    Fazenda Nossa Senhora da Conceição
+VinhoComer
+    O Italianão Bar e Restaurante
+*/
+#slide-img16:target~.imagens {
+    left: 0px;
+}
+
+#slide-img17:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img18:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Estação de Jundiaí
+HistoricoComer
+    Casablanca Restaurante
+TerraNovaVisitar
+    Paintball Jundiai
+VinhoVisitar
+    Vinícola Saccomani
+VinhoComer
+    Cervejaria Marcos Brunholi
+*/
+#slide-img19:target~.imagens {
+    left: 0px;
+}
+
+#slide-img20:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img21:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Complexo Educacional e Cultural Argos/ Fábrica Argos
+HistoricoComer 
+    Pizzaria Monte Carlo
+TerraNovaVisitar
+    Viveiro Terra Nova
+VinhoVisitar
+    Casa De Pizzo
+VinhoComer
+    Recanto Marquezin
+*/
+#slide-img22:target~.imagens {
+    left: 0px;
+}
+
+#slide-img23:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img24:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Ponte Torta
+*/
+#slide-img25:target~.imagens {
+    left: 0px;
+}
+
+#slide-img26:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img27:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Teatro Polytheama
+*/
+#slide-img28:target~.imagens {
+    left: 0px;
+}
+
+#slide-img29:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img30:target~.imagens {
+    left: -200%;
+}
+
+/*
+HistoricoVisitar
+    Esplanada Monte Castelo
+*/
+#slide-img31:target~.imagens {
+    left: 0px;
+}
+
+#slide-img32:target~.imagens {
+    left: -99.85%;
+}
+
+#slide-img33:target~.imagens {
+    left: -200%;
+}

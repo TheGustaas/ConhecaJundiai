@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/timelineUva.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/pesquisa.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/timeline.js"></script>
+
+    <title>Onde Visitar</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="icone1" src="../imagens/Anchieta2.png" alt="">
+            <h1>O QUE VISITAR</h1>
+            <img id="icone2" src="../imagens/Prefeitura2.png" alt="">
+        </header>
+        <div id="menu">
+            <a href="index.html" class="pagina-futura">Home</a>
+            <a href="rotasVisitar.html" class="pagina-atual">O que Visitar</a>
+            <a href="rotasComer.html" class="pagina-futura">Onde Comer</a>
+            <a href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf" target="_blank"
+                class="pagina-futura">Projeto</a>
+        </div>
+        <hr>
+        
+        <h1 id="timeline"></h1>
+        <h1 id="tituloUva">O que visitar: Rota da Uva / Vinho</h1>
+
+        <!--Apresentação-->
+        <div class="container">
+            <span id="slide-img1"></span>
+            <span id="slide-img2"></span>
+            <span id="slide-img3"></span>
+            <div class="imagens">
+                <img id="slide-img1" src="../imagens/vinho/uvaVisitar-pontos.jpg" class="imagem">
+                <img id="slide-img2" src="../imagens/vinho/uva_visitar2.jpg" class="imagem">
+                <img id="slide-img3" src="../imagens/vinho/uva_visitar3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img1" class="botaoVinho"></a>
+                <a href="#slide-img2" class="botaoVinho"></a>
+                <a href="#slide-img3" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Adega Maziero-->
+        <div class="container hidden">
+            <span id="slide-img4"></span>
+            <span id="slide-img5"></span>
+            <span id="slide-img6"></span>
+            <div class="imagens">
+                <img id="slide-img4" src="../imagens/vinho/Adega_Maziero1.jpg" class="imagem">
+                <img id="slide-img5" src="../imagens/vinho/Adega_Maziero2.jpg" class="imagem">
+                <img id="slide-img6" src="../imagens/vinho/Adega_Maziero3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img4" class="botaoVinho"></a>
+                <a href="#slide-img5" class="botaoVinho"></a>
+                <a href="#slide-img6" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Adega Galvão-->
+        <div class="container hidden">
+            <span id="slide-img7"></span>
+            <span id="slide-img8"></span>
+            <span id="slide-img9"></span>
+            <div class="imagens">
+                <img id="slide-img7" src="../imagens/vinho/Adega_Galvao1.jpg" class="imagem">
+                <img id="slide-img8" src="../imagens/vinho/Adega_Galvao2.jpg" class="imagem">
+                <img id="slide-img9" src="../imagens/vinho/Adega_Galvao3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img7" class="botaoVinho"></a>
+                <a href="#slide-img8" class="botaoVinho"></a>
+                <a href="#slide-img9" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Adega Marquesin-->
+        <div class="container hidden">
+            <span id="slide-img10"></span>
+            <span id="slide-img11"></span>
+            <span id="slide-img12"></span>
+            <div class="imagens">
+                <img id="slide-img10" src="../imagens/vinho/Adega_Marquesin1.jpg" class="imagem">
+                <img id="slide-img11" src="../imagens/vinho/Adega_Marquesin2.jpg" class="imagem">
+                <img id="slide-img12" src="../imagens/vinho/Adega_Marquesin3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img10" class="botaoVinho"></a>
+                <a href="#slide-img11" class="botaoVinho"></a>
+                <a href="#slide-img12" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Adega Brunholi-->
+        <div class="container hidden">
+            <span id="slide-img13"></span>
+            <span id="slide-img14"></span>
+            <span id="slide-img15"></span>
+            <div class="imagens">
+                <img id="slide-img13" src="../imagens/vinho/Espaço_Cultural_Museu_do_Vinho1.jpg" class="imagem">
+                <img id="slide-img14" src="../imagens/vinho/Espaço_Cultural_Museu_do_Vinho2.jpg" class="imagem">
+                <img id="slide-img15" src="../imagens/vinho/Espaço_Cultural_Museu_do_Vinho3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img13" class="botaoVinho"></a>
+                <a href="#slide-img14" class="botaoVinho"></a>
+                <a href="#slide-img15" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Fazenda Nossa Senhora da Conceição-->
+        <div class="container hidden">
+            <span id="slide-img16"></span>
+            <span id="slide-img17"></span>
+            <span id="slide-img18"></span>
+            <div class="imagens">
+
+                <img id="slide-img16" src="../imagens/vinho/Fazenda_Nossa_Senhora_da_Conceicao1.jpg" class="imagem">
+                <img id="slide-img17" src="../imagens/vinho/Fazenda_Nossa_Senhora_da_Conceicao2.jpg" class="imagem">
+                <img id="slide-img18" src="../imagens/vinho/Fazenda_Nossa_Senhora_da_Conceicao3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img16" class="botaoVinho"></a>
+                <a href="#slide-img17" class="botaoVinho"></a>
+                <a href="#slide-img18" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Vinícola Saccomani-->
+        <div class="container hidden">
+            <span id="slide-img19"></span>
+            <span id="slide-img20"></span>
+            <span id="slide-img21"></span>
+            <div class="imagens">
+
+                <img id="slide-img19" src="../imagens/vinho/Vinicola_Saccomani1.jpg" class="imagem">
+                <img id="slide-img20" src="../imagens/vinho/Vinicola_Saccomani2.jpg" class="imagem">
+                <img id="slide-img21" src="../imagens/vinho/Vinicola_Saccomani3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img19" class="botaoVinho"></a>
+                <a href="#slide-img20" class="botaoVinho"></a>
+                <a href="#slide-img21" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Casa De Pizzo-->
+        <div class="container hidden">
+            <span id="slide-img22"></span>
+            <span id="slide-img23"></span>
+            <span id="slide-img24"></span>
+            <div class="imagens">
+
+                <img id="slide-img22" src="../imagens/vinho/Casa-de-Pizzo.jpg" class="imagem">
+                <img id="slide-img23" src="../imagens/vinho/Casa-de-Pizzo-2.jpg" class="imagem">
+                <img id="slide-img24" src="../imagens/vinho/Casa-de-Pizzo-3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img22" class="botaoVinho"></a>
+                <a href="#slide-img23" class="botaoVinho"></a>
+                <a href="#slide-img24" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <h1 id="timeline"></h1>
+        <div class="flex-parent">
+            <div class="input-flex-container">
+                <div class="input time active">
+                    <span codigo-rota="Home" data-info="Apresentação"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="1" data-info="Adega Maziero"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="2" data-info="Adega Galvão"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="3" data-info="Adega Marquesin"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="4" data-info="Adega Brunholi"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="5" data-info="Fazenda Nossa Senhora da Conceição"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="6" data-info="Vinícola Saccomani"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="7" data-info="Casa De Pizzo"></span>
+                </div>
+            </div>
+            <h1 id="timeline"></h1>
+            <div class="search-select">
+                <select id="selectDiv">
+                    <option value="p1">Apresentação</option>
+                    <option value="p2">Adega Maziero</option>
+                    <option value="p3">Adega Galvão</option>
+                    <option value="p4">Adega Marquesin</option>
+                    <option value="p5">Adega Brunholi</option>
+                    <option value="p6">Fazenda Nossa Senhora da Conceição</option>
+                    <option value="p7">Vinícola Saccomani</option>
+                    <option value="p8">Casa De Pizzo</option>
+                </select>
+            </div>
+            <div class="description-flex-container">
+
+                <!--Apresentação-->
+                <div id="div1" class="container2">
+                    <p id="p1" class="paragrafo active">
+
+
+                        A Rota da Uva de Jundiaí é um lugar encantador para quem gosta de
+                        cultura, história e, é claro, vinho delicioso. Fica perto de São Paulo e é um dos principais
+                        pontos
+                        turísticos do estado, recebendo visitantes de todo o Brasil e do mundo.
+                        A fama da Rota da Uva se deve principalmente à sua tradição na produção de vinho. Há mais de um
+                        século, imigrantes italianos se estabeleceram em Jundiaí e começaram a cultivar uvas, tornando a
+                        região famosa por seus vinhos de qualidade. Hoje em dia, Jundiaí é reconhecida como uma das
+                        principais regiões produtoras de vinho no Brasil.
+                        Além dos vinhedos, a Rota da Uva também é conhecida por suas paisagens naturais e atrativos
+                        históricos. A região é linda, com colinas verdes e vinhedos espalhados por toda parte. Os
+                        visitantes
+                        podem fazer passeios pelas vinícolas, conhecer o processo de produção do vinho e experimentar os
+                        sabores únicos da região.
+                        Ao explorar a Rota da Uva, os turistas têm a chance de vivenciar a cultura italiana presente na
+                        região. Há festas típicas, comida tradicional e os moradores locais são muito acolhedores. Um
+                        evento
+                        imperdível é a Festa da Uva, que celebra a colheita das uvas com música, danças, exposições e, é
+                        claro, degustações dos vinhos produzidos ali.</p>
+                </div>
+
+
+                <!--Adega Maziero-->
+                <div id="div2" class="container2 hidden">
+                    <p id="p2" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Maria Negrini Negro, 2051 - Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-1810.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. a Sáb. das 8h às 17h, Dom. e feriados das 8h às 15h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://turismo.jundiai.sp.gov.br/atrativos/adegas/adega-mazziero/">https://turismo.jundiai.sp.gov.br/atrativos/adegas/adega-mazziero/</a>
+                        </li>
+                    </ul>
+
+                    A família Maziero emigrou para o Brasil em 1888 e estabeleceu-se em Araras. Em 2013, a Adega Maziero
+                    teve a honra de fornecer os vinhos servidos no almoço do Papa Francisco durante sua visita ao
+                    Brasil, incluindo o Moscato Seco e o Bordô Seco. Essa conquista destaca a qualidade dos vinhos
+                    produzidos pela adega.
+                    </p>
+                </div>
+
+
+                <!--Adega Galvão-->
+                <div id="div3" class="container2 hidden">
+                    <p id="p3" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Maria Negrini Negro, 950 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-6099.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, das 9h às 18h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/o-que-visitar/adega-galvao/">https://rotasturisticas.jundiai.sp.gov.br/uva/o-que-visitar/adega-galvao/</a>
+                        </li>
+                    </ul>
+
+                    A propriedade oferece aos visitantes a oportunidade de degustar vinhos. A história da adega Galvão
+                    remonta à colonização italiana, quando o Sr. Galvão adquiriu o sítio onde a adega está situada.
+                    Inicialmente, toda a propriedade era dedicada ao cultivo de uvas, que era a principal fonte de renda
+                    da família. Para aproveitar as uvas não vendidas, começaram a produzir vinho, o que levou à criação
+                    da adega Galvão.
+                    </p>
+
+                </div>
+
+                <!--Adega Marquesin-->
+                <div id="div4" class="container2 hidden">
+                    <p id="p4" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. José Mezzalira, 588 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-2695 / (11) 97307-4000.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. a Sex. das 14h às 18h, Sáb. e Dom. das 9h às 18h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/o-que-visitar/adega-marquesin/">https://rotasturisticas.jundiai.sp.gov.br/uva/o-que-visitar/adega-marquesin/</a>
+                        </li>
+                    </ul>
+
+                    O Sr. Aristeu é um cultivador de uvas que utiliza principalmente a variedade curbina para produzir
+                    seu vinho, mantendo a tradição e conferindo um caráter original à bebida. Além disso, ele produz um
+                    vinho licoroso branco feito com uvas Niágara, que possui um aroma e sabor únicos. O que antes era
+                    produzido apenas para consumo próprio no passado, agora se tornou uma atividade que gera recursos
+                    para a família.
+
+                    </p>
+                </div>
+
+
+                <!--Adega Brunholi-->
+                <div id="div5" class="container2 hidden">
+                    <p id="p5" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Humberto Cereser, 5900 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-1799.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Ter. a Dom. das 9h às 17h30.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://villabrunholi.minhalojanouol.com.br/">https://villabrunholi.minhalojanouol.com.br/</a>
+                        </li>
+                    </ul>
+
+                    O Museu do Vinho, localizado no complexo Villa Brunholi em Jundiaí, abriga um grande tonel que
+                    representa a história da imigração italiana na região. Visitado por centenas de pessoas, o museu
+                    conta com painéis que retratam a história das famílias, imigração, uva e vinho, além de exibir
+                    utensílios domésticos e de produção de vinho. Inaugurado em 2002, o museu é uma atração popular e de
+                    fácil acesso para os visitantes interessados na história da vitivinicultura e na chegada dos
+                    italianos em Jundiaí.
+
+                    </p>
+                </div>
+
+
+                <!--Fazenda Nossa Senhora da Conceição-->
+                <div id="div6" class="container2 hidden">
+                    <p id="p6" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rodovia Eng. Constâncio Cintra – km 72,5 – Mato Dentro
+                        </li>
+                        <li>
+                            Telefone: (11) 4535-1341 / 99744-0898.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Sáb., Dom. e feriados das 11h30 às 15h30.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/o-que-visitar/fazenda-nossa-senhora-da-conceicao/">https://rotasturisticas.jundiai.sp.gov.br/uva/o-que-visitar/fazenda-nossa-senhora-da-conceicao/</a>
+                        </li>
+                    </ul>
+
+                    A Fazenda Nossa Senhora da Conceição, fundada em 1810, teve destaque na produção de cana-de-açúcar e
+                    café. Com a chegada dos imigrantes italianos em 1882, a cultura das vinhas foi introduzida na
+                    fazenda. Atualmente, o local oferece áreas verdes, trilhas, restaurante e loja de artesanato. Além
+                    disso, recebe visitas escolares para estudos do meio, proporcionando uma experiência educativa aos
+                    alunos.
+
+                    </p>
+                </div>
+
+
+                <!--Vinícola Saccomani-->
+                <div id="div7" class="container2 hidden">
+                    <p id="p7" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Companhia Paulista de Estrada de Ferro, 2247
+                        </li>
+                        <li>
+                            Telefone: (11) 99400-6253.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Ter. a Dom. das 09h às 17h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://turismo.jundiai.sp.gov.br/atrativos/turismorural/vinicola-saccomani/">https://turismo.jundiai.sp.gov.br/atrativos/turismorural/vinicola-saccomani/</a>
+                        </li>
+                    </ul>
+
+                    A vinícola Saccomani tem uma história que remonta a 1885, quando o casal Saccomani trouxe mudas de
+                    uva da Itália para o Brasil. Hoje, a propriedade é administrada pela 4ª geração da família e mantém
+                    o cultivo tradicional das parreiras em sistema de caramanchão. Os visitantes podem desfrutar de
+                    passeios pela mata, conhecer as plantações de uva, jabuticaba e banana, além de apreciar um lago. A
+                    vinícola oferece degustação de vinhos, combinando métodos tradicionais e modernos de produção.
+                    </p>
+                </div>
+
+
+                <!--Casa De Pizzo-->
+                <div id="div8" class="container2 hidden">
+                    <p id="p8" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Estrada da Casa Velha, 1510, Traviú
+                        </li>
+                        <li>
+                            Telefone: (11) 97110-0990.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, mediante agendamento.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://turismo.jundiai.sp.gov.br/atrativos/adegas/casa-de-pizzo/">https://turismo.jundiai.sp.gov.br/atrativos/adegas/casa-de-pizzo/</a>
+                        </li>
+                    </ul>
+
+                    A empresa, fundada em 1968, passou por uma transformação em 2005, dedicando-se à produção de uvas
+                    finas e vinhos. Além disso, a propriedade possui um pomar diversificado, com diversas frutas, ervas
+                    aromáticas e medicinais, além de animais de criação. Os visitantes são convidados a desfrutar de
+                    visitas e degustações orientadas de vinhos, sucos, licores, doces e geleias. É um lugar encantador
+                    para apreciar a natureza e saborear produtos de qualidade.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <footer id="rodape">
+            <p><a href="https://jundiai.sp.gov.br"> Prefeitura de Jundiaí</a> |<a href="https://www.anchieta.br">
+                    Unianchieta</a> | Desenvolvido por <a
+                    href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf">Conheça Jundiaí</a> | Todos os direitos
+                reservados</p>
+        </footer>
+</body>
+
+</html>

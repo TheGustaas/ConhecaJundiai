@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/timelineUva.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/pesquisa.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/timeline.js"></script>
+
+    <title>Onde Comer</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="icone1" src="../imagens/Anchieta2.png" alt="">
+            <h1>ONDE COMER</h1>
+            <img id="icone2" src="../imagens/Prefeitura2.png" alt="">
+        </header>
+        <div id="menu">
+            <a href="index.html" class="pagina-futura">Home</a>
+            <a href="rotasVisitar.html" class="pagina-futura">O que Visitar</a>
+            <a href="rotasComer.html" class="pagina-atual">Onde Comer</a>
+            <a href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf" target="_blank"
+                class="pagina-futura">Projeto</a>
+        </div>
+        <hr>
+        <h1 id="timeline"></h1>
+        <h1 id="tituloUva">Onde comer: Rota da Uva / Vinho</h1>
+
+        <!--Apresentação-->
+        <div class="container">
+            <span id="slide-img1"></span>
+            <span id="slide-img2"></span>
+            <span id="slide-img3"></span>
+            <div class="imagens">
+                <img id="slide-img1" src="../imagens/vinho/uvaComer-pontos.jpg" class="imagem">
+                <img id="slide-img2" src="../imagens/vinho/uva_comer2.jpg" class="imagem">
+                <img id="slide-img3" src="../imagens/vinho/uva_comer3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img1" class="botaoVinho"></a>
+                <a href="#slide-img2" class="botaoVinho"></a>
+                <a href="#slide-img3" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Open Tap-->
+        <div class="container hidden">
+            <span id="slide-img4"></span>
+            <span id="slide-img5"></span>
+            <span id="slide-img6"></span>
+            <div class="imagens">
+                <img id="slide-img4" src="../imagens/vinho/Open_Tap1.jpg" class="imagem">
+                <img id="slide-img5" src="../imagens/vinho/Open_Tap2.jpg" class="imagem">
+                <img id="slide-img6" src="../imagens/vinho/Open_Tap3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img4" class="botaoVinho"></a>
+                <a href="#slide-img5" class="botaoVinho"></a>
+                <a href="#slide-img6" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Veg Point - Spa e Restaurante Gourmet Vegetariano/Vegano-->
+        <div class="container hidden">
+            <span id="slide-img7"></span>
+            <span id="slide-img8"></span>
+            <span id="slide-img9"></span>
+            <div class="imagens">
+                <img id="slide-img7" src="../imagens/vinho/Veg_Point1.jpg" class="imagem">
+                <img id="slide-img8" src="../imagens/vinho/Veg_Point2.jpg" class="imagem">
+                <img id="slide-img9" src="../imagens/vinho/Veg_Point3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img7" class="botaoVinho"></a>
+                <a href="#slide-img8" class="botaoVinho"></a>
+                <a href="#slide-img9" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Butequim du Marcelo Perto da Roça-->
+        <div class="container hidden">
+            <span id="slide-img10"></span>
+            <span id="slide-img11"></span>
+            <span id="slide-img12"></span>
+            <div class="imagens">
+                <img id="slide-img10" src="../imagens/vinho/Butequim_du_Marcelo_Perto_da_Roca1.jpg" class="imagem">
+                <img id="slide-img11" src="../imagens/vinho/Butequim_du_Marcelo_Perto_da_Roca2.jpg" class="imagem">
+                <img id="slide-img12" src="../imagens/vinho/Butequim_du_Marcelo_Perto_da_Roca3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img10" class="botaoVinho"></a>
+                <a href="#slide-img11" class="botaoVinho"></a>
+                <a href="#slide-img12" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Kiosque Roseira-->
+        <div class="container hidden">
+            <span id="slide-img13"></span>
+            <span id="slide-img14"></span>
+            <span id="slide-img15"></span>
+            <div class="imagens">
+                <img id="slide-img13" src="../imagens/vinho/Kiosque_Roseira1.jpg" class="imagem">
+                <img id="slide-img14" src="../imagens/vinho/Kiosque_Roseira2.jpg" class="imagem">
+                <img id="slide-img15" src="../imagens/vinho/Kiosque_Roseira3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img13" class="botaoVinho"></a>
+                <a href="#slide-img14" class="botaoVinho"></a>
+                <a href="#slide-img15" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--O Italianão Bar e Restaurante-->
+        <div class="container hidden">
+            <span id="slide-img16"></span>
+            <span id="slide-img17"></span>
+            <span id="slide-img18"></span>
+            <div class="imagens">
+
+                <img id="slide-img16" src="../imagens/vinho/Italianao1.jpg" class="imagem">
+                <img id="slide-img17" src="../imagens/vinho/Italianao2.jpg" class="imagem">
+                <img id="slide-img18" src="../imagens/vinho/Italianao3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img16" class="botaoVinho"></a>
+                <a href="#slide-img17" class="botaoVinho"></a>
+                <a href="#slide-img18" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Cervejaria Marcos Brunholi-->
+        <div class="container hidden">
+            <span id="slide-img19"></span>
+            <span id="slide-img20"></span>
+            <span id="slide-img21"></span>
+            <div class="imagens">
+
+                <img id="slide-img19" src="../imagens/vinho/Cervejaria_Marcos_Brunholi1.jpg" class="imagem">
+                <img id="slide-img20" src="../imagens/vinho/Cervejaria_Marcos_Brunholi2.jpg" class="imagem">
+                <img id="slide-img21" src="../imagens/vinho/Cervejaria_Marcos_Brunholi3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img19" class="botaoVinho"></a>
+                <a href="#slide-img20" class="botaoVinho"></a>
+                <a href="#slide-img21" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <!--Recanto Marquezin-->
+        <div class="container hidden">
+            <span id="slide-img22"></span>
+            <span id="slide-img23"></span>
+            <span id="slide-img24"></span>
+            <div class="imagens">
+
+                <img id="slide-img22" src="../imagens/vinho/Recanto_Marquezin1.jpg" class="imagem">
+                <img id="slide-img23" src="../imagens/vinho/Recanto_Marquezin2.jpg" class="imagem">
+                <img id="slide-img24" src="../imagens/vinho/Recanto_Marquezin3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img22" class="botaoVinho"></a>
+                <a href="#slide-img23" class="botaoVinho"></a>
+                <a href="#slide-img24" class="botaoVinho"></a>
+            </div>
+        </div>
+
+        <h1 id="timeline"></h1>
+        <div class="flex-parent">
+            <div class="input-flex-container">
+                <div class="input time active">
+                    <span codigo-rota="Home" data-info="Apresentação"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="1" data-info="Open Tap"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="2" data-info="Veg Point"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="3" data-info="Butequim du Marcelo Perto da Roça"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="4" data-info="Kiosque Roseira"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="5" data-info="O Italianão Bar e Restaurante"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="6" data-info="Cervejaria Marcos Brunholi"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="7" data-info="Recanto Marquezin"></span>
+                </div>
+            </div>
+            <h1 id="timeline"></h1>
+            <div class="search-select">
+                <select id="selectDiv">
+                    <option value="p1">Apresentação</option>
+                    <option value="p2">Open Tap</option>
+                    <option value="p3">Veg Point - Spa e Restaurante Gourmet Vegetariano/Vegano</option>
+                    <option value="p4">Butequim du Marcelo Perto da Roça</option>
+                    <option value="p5">Kiosque Roseira</option>
+                    <option value="p6">O Italianão Bar e Restaurante</option>
+                    <option value="p7">Cervejaria Marcos Brunholi</option>
+                    <option value="p8">Recanto Marquezin</option>
+                </select>
+            </div>
+            <div class="description-flex-container">
+
+                <!--Apresentação-->
+                <div id="div1" class="container2">
+                    <p id="p1" class="paragrafo active">A Rota da Uva de Jundiaí é um lugar encantador para quem gosta
+                        de
+                        cultura, história e, é claro, vinho delicioso. Fica perto de São Paulo e é um dos principais
+                        pontos
+                        turísticos do estado, recebendo visitantes de todo o Brasil e do mundo.
+                        A fama da Rota da Uva se deve principalmente à sua tradição na produção de vinho. Há mais de um
+                        século, imigrantes italianos se estabeleceram em Jundiaí e começaram a cultivar uvas, tornando a
+                        região famosa por seus vinhos de qualidade. Hoje em dia, Jundiaí é reconhecida como uma das
+                        principais regiões produtoras de vinho no Brasil.
+                        Além dos vinhedos, a Rota da Uva também é conhecida por suas paisagens naturais e atrativos
+                        históricos. A região é linda, com colinas verdes e vinhedos espalhados por toda parte. Os
+                        visitantes
+                        podem fazer passeios pelas vinícolas, conhecer o processo de produção do vinho e experimentar os
+                        sabores únicos da região.
+                        Ao explorar a Rota da Uva, os turistas têm a chance de vivenciar a cultura italiana presente na
+                        região. Há festas típicas, comida tradicional e os moradores locais são muito acolhedores. Um
+                        evento
+                        imperdível é a Festa da Uva, que celebra a colheita das uvas com música, danças, exposições e, é
+                        claro, degustações dos vinhos produzidos ali.</p>
+                </div>
+
+
+                <!--Open Tap-->
+                <div id="div2" class="container2 hidden">
+                    <p id="p2" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Humberto Cereser, 2650 - Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 95931-9758.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Qua. e Qui. das 18h às 23h, Sex. das 18h às 24h, Sáb. das 14h às
+                            24h e
+                            Dom. das 14h às 22h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://turismo.jundiai.sp.gov.br/gastronomia/cervejasartesanais/open-tap/">https://turismo.jundiai.sp.gov.br/gastronomia/cervejasartesanais/open-tap/</a>
+                        </li>
+                    </ul>
+
+                    Imagine um local onde você tem total autonomia para servir o seu próprio chope, sem precisar de
+                    mesas ou garçons. Um lugar onde você e seus filhos podem se divertir juntos. Essa experiência única
+                    é real e você pode fazer parte dessa revolução.
+
+                    </p>
+                </div>
+
+
+                <!--Veg Point - Spa e Restaurante Gourmet Vegetariano/Vegano-->
+                <div id="div3" class="container2 hidden">
+                    <p id="p3" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Travessa Julios Pauli, 65 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-6654 / (11) 4584-2154.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Dom. a Sex e feriados, das 9h às 17h (mediante reserva).
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/vinho/onde-comer/spa-e-restaurante-gourmet-vegetariano-vegano/">https://rotasturisticas.jundiai.sp.gov.br/vinho/onde-comer/spa-e-restaurante-gourmet-vegetariano-vegano/</a>
+                        </li>
+                    </ul>
+
+                    O Match Point SPA e Restaurante é um local especializado em pratos vegetarianos e veganos, com
+                    opções para intolerantes à lactose e ao glúten. Priorizando alimentos frescos e orgânicos, eles
+                    oferecem uma variedade de pratos saudáveis e deliciosos. Os itens como pães, molhos, gelatos e
+                    sorvetes são preparados artesanalmente, proporcionando uma experiência única aos clientes.
+                    </p>
+                </div>
+
+
+                <!--Butequim du Marcelo Perto da Roça-->
+                <div id="div4" class="container2 hidden">
+                    <p id="p4" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Humberto Cereser, 5090 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 99749-1053.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Quinta das 17h30 às 22h. Sexta das 17h30 às 23h. Sábado das 11h30
+                            às 23h.
+                            Domingo das 11h30 às 18h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/butequim-du-marcelo-perto-da-roca/">https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/butequim-du-marcelo-perto-da-roca/</a>
+                        </li>
+                    </ul>
+
+                    Um botequim ao ar livre com porções diferenciadas! Aqui você encontra bolinhos artesanais, torresmo
+                    de rolo, linguiça artesanal, bolinho de costela e muito mais. Acompanhe com uma caipirinha ou uma
+                    cerveja geladíssima. Aos sábados, servimos feijoada e aos domingos, uma deliciosa comida caseira.
+                    </p>
+                </div>
+
+
+                <!--Kiosque Roseira-->
+                <div id="div5" class="container2 hidden">
+                    <p id="p5" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Avenida Humberto Cereser 5221, Jundiaí, SP.
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-0030
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. das 15h às 20h e Ter. a Dom. das 11h30 às 20h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/butequim-du-marcelo-perto-da-roca/">https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/butequim-du-marcelo-perto-da-roca/</a>
+                        </li>
+                    </ul>
+
+                    O Kiosque Roseira é um local acolhedor e convidativo, ideal para encontros com familiares e amigos.
+                    Com um cardápio diversificado, oferecemos deliciosas opções, como bolinhos artesanais, torresmo de
+                    rolo, linguiça artesanal e bolinho de costela. Acompanhe suas escolhas com caipirinhas refrescantes
+                    e cervejas geladas. Aos sábados, desfrute de nossa saborosa feijoada, e aos domingos, saboreie uma
+                    comida caseira irresistível. Visite-nos e desfrute de momentos deliciosos em um ambiente acolhedor.
+                    </p>
+                </div>
+
+
+                <!--O Italianão Bar e Restaurante-->
+                <div id="div6" class="container2 hidden">
+                    <p id="p6" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Humberto Cereser, 5667 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-3247
+                        </li>
+                        <li>
+                            Horário de funcionamento: Qua. das 11h às 15h, Qui. a Sáb. das 11h às 15h e das 18h30 às
+                            23h, Dom.
+                            das 11h30 às 15h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/o-italianao-bar-e-restaurante/">https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/o-italianao-bar-e-restaurante/</a>
+                        </li>
+                    </ul>
+
+                    Restaurante especializado em peixes, frutos do mar, carnes e massas. Pratos destacados incluem
+                    Bacalhau à Marinheiro, Moqueca, Caldeirada, Robalo e Lagosta. Ingredientes frescos e de alta
+                    qualidade são utilizados em todas as preparações. Ambiente acolhedor e atendimento de excelência.
+                    Uma experiência gastronômica memorável aguarda por você.
+                    </p>
+                </div>
+
+
+                <!--Cervejaria Marcos Brunholi-->
+                <div id="div7" class="container2 hidden">
+                    <p id="p7" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Humberto Cereser, 6000 – Caxambu
+                        </li>
+                        <li>
+                            Telefone: (11) 94718-2237
+                        </li>
+                        <li>
+                            Horário de funcionamento: Quinta a sábado das 11h às 23h
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/cervejaria-marcos-brunholi/">https://rotasturisticas.jundiai.sp.gov.br/uva/onde-comer/cervejaria-marcos-brunholi/</a>
+                        </li>
+                    </ul>
+
+                    Uma experiência gastronômica inesquecível aguarda por você na nossa cervejaria. Além de oferecer uma
+                    ampla variedade de cervejas artesanais, também temos opções deliciosas de pratos à la carte e
+                    self-service.
+
+                    </p>
+                </div>
+
+
+                <!--Recanto Marquezin-->
+                <div id="div8" class="container2 hidden">
+                    <p id="p8" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. Maria Negrini Neto, 3428 – Bairro da Toca – Jundiaí
+                        </li>
+                        <li>
+                            Telefone: (11) 4584-0993
+                        </li>
+                        <li>
+                            Horário de funcionamento: Sex. das 17h às 23h30, Sáb., Dom. e feriados das 11h30 às 16h30.
+                        </li>
+                        <li>
+                            Site: <a href="http://www.recantomarquezin.com.br/">http://www.recantomarquezin.com.br/</a>
+                        </li>
+                    </ul>
+
+                    O Recanto Marquezin é um restaurante no bairro da Toca com influências italianas e caipiras. Com uma
+                    bela vista da Serra do Japi e outras regiões, o restaurante é de propriedade da família Marquezin,
+                    que chegou ao Brasil em 1880. O cardápio inclui opções como macarrão ao sugo, bolonhesa, alho e
+                    óleo, e nhoque. Além disso, os visitantes podem explorar a plantação de diversas frutas e desfrutar
+                    da tranquilidade do lago com peixes e gansos.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <footer id="rodape">
+            <p><a href="https://jundiai.sp.gov.br"> Prefeitura de Jundiaí</a> |<a href="https://www.anchieta.br">
+                    Unianchieta</a> | Desenvolvido por <a
+                    href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf">Conheça Jundiaí</a> | Todos os direitos
+                reservados</p>
+        </footer>
+</body>
+
+</html>

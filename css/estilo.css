@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fefcf0;
+}
+
+header#cabecalho {
+    height: auto;
+    background-color: #533A71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header#cabecalho h1 {
+    color: white;
+    margin: 0;
+}
+
+div#interface {
+    width: 100%;
+    justify-content: center;
+}
+
+input#explorar {
+    margin: 0px 40px 0px 0px;
+    width: 20%;
+}
+
+header#cabecalho img#icone2 {
+    margin: 0px 10px 0px 40px;
+    width: 20%;
+}
+
+header#cabecalho img#icone1 {
+    margin: 0px 40px 0px 10px;
+    width: 20%;
+}
+
+footer#rodape {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #533A71;
+    color: white;
+    height: 55px;
+    font-weight: bold;
+}
+
+
+footer#rodape a {
+    color: white;
+}
+
+footer#rodape a:hover {
+    color: black;
+}
+
+hr {
+    border: 1.5px solid #000;
+    width: 95%;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+
+aside#lateral {
+    display: block;
+    padding: 20px 0px 20px 0px;
+    max-width: 900px;
+    margin: auto;
+}
+
+div#menu {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div#menu a {
+    text-decoration: none;
+    border: 1px solid #533A71;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: inline-block;
+    letter-spacing: -1px;
+    user-select: none;
+    color: white;
+    box-shadow: #533A71 3px 3px 0px;
+    transition: all .195s ease-in-out;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #b79bd6;
+}
+
+div#menu a:hover {
+    transform: translateX(5px) translateY(5px);
+    box-shadow: #533A71 7px 9px 0px;
+    background-color: white;
+    color: #533A71;
+    font-weight: bold;
+}
+
+div#menu a.pagina-atual {
+    transform: translateX(5px) translateY(5px);
+    box-shadow: #533A71 7px 9px 0px;
+    background-color: white;
+    color: #533A71;
+    font-weight: bold;
+}
+
+img#vinho,
+img#terra,
+img#historico {
+    width: 100%;
+    min-width: 115px;
+}
+
+table#rotasPrincipal {
+    margin: auto;
+}
+
+html {
+    min-width: 450px;
+}
+
+div.container2 {
+    justify-content: center;
+    text-align: justify;
+}
+
+ul.topicos {
+    text-align: left;
+}
+
+
+section#corpo {
+    display: block;
+    width: 80%;
+    padding: 0px 40px 40px 40px;
+    text-align: center;
+    margin: auto;
+}

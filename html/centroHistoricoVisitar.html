@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/timelineCentro.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/pesquisa.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/timeline.js"></script>
+
+    <title>Onde Visitar</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="icone1" src="../imagens/Anchieta2.png" alt="">
+            <h1>O QUE VISITAR</h1>
+            <img id="icone2" src="../imagens/Prefeitura2.png" alt="">
+        </header>
+        <div id="menu">
+            <a href="index.html" class="pagina-futura">Home</a>
+            <a href="rotasVisitar.html" class="pagina-atual">O que Visitar</a>
+            <a href="rotasComer.html" class="pagina-futura">Onde Comer</a>
+            <a href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf" target="_blank"
+                class="pagina-futura">Projeto</a>
+        </div>
+        <hr>
+        <h1 id="timeline"></h1>
+        <h1 id="tituloHistorico">O que visitar: Rota do Centro Histórico</h1>
+
+        <!--Apresentação-->
+        <div class="container">
+            <span id="slide-img1"></span>
+            <span id="slide-img2"></span>
+            <span id="slide-img3"></span>
+            <div class="imagens">
+                <img id="slide-img1" src="../imagens/historico/historicoVisitar-pontos.jpg" class="imagem">
+                <img id="slide-img2" src="../imagens/historico/historico_visitar2.jpg" class="imagem">
+                <img id="slide-img3" src="../imagens/historico/historico_visitar3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img1" class="botaoHistorico"></a>
+                <a href="#slide-img2" class="botaoHistorico"></a>
+                <a href="#slide-img3" class="botaoHistorico"></a>
+            </div>
+
+        </div>
+
+        <!--Companhia Paulista-->
+        <div class="container hidden">
+            <span id="slide-img4"></span>
+            <span id="slide-img5"></span>
+            <span id="slide-img6"></span>
+            <div class="imagens">
+                <img id="slide-img4" src="../imagens/historico/Companhia_Paulista1.jpg" class="imagem">
+                <img id="slide-img5" src="../imagens/historico/Companhia_Paulista2.jpg" class="imagem">
+                <img id="slide-img6" src="../imagens/historico/Companhia_Paulista3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img4" class="botaoHistorico"></a>
+                <a href="#slide-img5" class="botaoHistorico"></a>
+                <a href="#slide-img6" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Clube Jundiaiense-->
+        <div class="container hidden">
+            <span id="slide-img7"></span>
+            <span id="slide-img8"></span>
+            <span id="slide-img9"></span>
+            <div class="imagens">
+                <img id="slide-img7" src="../imagens/historico/Clube_Jundiaiense1.jpg" class="imagem">
+                <img id="slide-img8" src="../imagens/historico/Clube_Jundiaiense2.jpg" class="imagem">
+                <img id="slide-img9" src="../imagens/historico/Clube_Jundiaiense3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img7" class="botaoHistorico"></a>
+                <a href="#slide-img8" class="botaoHistorico"></a>
+                <a href="#slide-img9" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Catedral Nossa Senhora do Desterro-->
+        <div class="container hidden">
+            <span id="slide-img10"></span>
+            <span id="slide-img11"></span>
+            <span id="slide-img12"></span>
+            <div class="imagens">
+                <img id="slide-img10" src="../imagens/historico/Praca_Catedral_N.S._do_Desterro1.jpg" class="imagem">
+                <img id="slide-img11" src="../imagens/historico/Praca_Catedral_N.S._do_Desterro2.jpg" class="imagem">
+                <img id="slide-img12" src="../imagens/historico/Praca_Catedral_N.S._do_Desterro3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img10" class="botaoHistorico"></a>
+                <a href="#slide-img11" class="botaoHistorico"></a>
+                <a href="#slide-img12" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Museu Histórico e Cultural Solar do Barão-->
+        <div class="container hidden">
+            <span id="slide-img13"></span>
+            <span id="slide-img14"></span>
+            <span id="slide-img15"></span>
+            <div class="imagens">
+                <img id="slide-img13" src="../imagens/historico/Museu_Solar_do_Barao1.jpg" class="imagem">
+                <img id="slide-img14" src="../imagens/historico/Museu_Solar_do_Barao2.jpg" class="imagem">
+                <img id="slide-img15" src="../imagens/historico/Museu_Solar_do_Barao3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img13" class="botaoHistorico"></a>
+                <a href="#slide-img14" class="botaoHistorico"></a>
+                <a href="#slide-img15" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Antigo Mercado Municipal/Mercadão Ferroviários-->
+        <div class="container hidden">
+            <span id="slide-img16"></span>
+            <span id="slide-img17"></span>
+            <span id="slide-img18"></span>
+            <div class="imagens">
+
+                <img id="slide-img16" src="../imagens/historico/Antigo_Mercado_Municipal1.jpg" class="imagem">
+                <img id="slide-img17" src="../imagens/historico/Antigo_Mercado_Municipal2.jpg" class="imagem">
+                <img id="slide-img18" src="../imagens/historico/Antigo_Mercado_Municipal3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img16" class="botaoHistorico"></a>
+                <a href="#slide-img17" class="botaoHistorico"></a>
+                <a href="#slide-img18" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Estação de Jundiaí-->
+        <div class="container hidden">
+            <span id="slide-img19"></span>
+            <span id="slide-img20"></span>
+            <span id="slide-img21"></span>
+            <div class="imagens">
+
+                <img id="slide-img19" src="../imagens/historico/Estacao_de_Jundiai1.jpg" class="imagem">
+                <img id="slide-img20" src="../imagens/historico/Estacao_de_Jundiai2.jpg" class="imagem">
+                <img id="slide-img21" src="../imagens/historico/Estacao_de_Jundiai3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img19" class="botaoHistorico"></a>
+                <a href="#slide-img20" class="botaoHistorico"></a>
+                <a href="#slide-img21" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Complexo Educacional e Cultural Argos/ Fábrica Argos-->
+        <div class="container hidden">
+            <span id="slide-img22"></span>
+            <span id="slide-img23"></span>
+            <span id="slide-img24"></span>
+            <div class="imagens">
+
+                <img id="slide-img22" src="../imagens/historico/Complexo_Argos1.jpg" class="imagem">
+                <img id="slide-img23" src="../imagens/historico/Complexo_Argos2.jpg" class="imagem">
+                <img id="slide-img24" src="../imagens/historico/Complexo_Argos3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img22" class="botaoHistorico"></a>
+                <a href="#slide-img23" class="botaoHistorico"></a>
+                <a href="#slide-img24" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Ponte Torta-->
+        <div class="container hidden">
+            <span id="slide-img25"></span>
+            <span id="slide-img26"></span>
+            <span id="slide-img27"></span>
+            <div class="imagens">
+
+                <img id="slide-img25" src="../imagens/historico/Ponte_Torta1.jpg" class="imagem">
+                <img id="slide-img26" src="../imagens/historico/Ponte_Torta2.jpg" class="imagem">
+                <img id="slide-img27" src="../imagens/historico/Ponte_Torta3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img25" class="botaoHistorico"></a>
+                <a href="#slide-img26" class="botaoHistorico"></a>
+                <a href="#slide-img27" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Teatro Polytheama-->
+        <div class="container hidden">
+            <span id="slide-img28"></span>
+            <span id="slide-img29"></span>
+            <span id="slide-img30"></span>
+            <div class="imagens">
+
+                <img id="slide-img28" src="../imagens/historico/Teatro_Polytheama1.jpg" class="imagem">
+                <img id="slide-img29" src="../imagens/historico/Teatro_Polytheama2.jpg" class="imagem">
+                <img id="slide-img30" src="../imagens/historico/Teatro_Polytheama3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img28" class="botaoHistorico"></a>
+                <a href="#slide-img29" class="botaoHistorico"></a>
+                <a href="#slide-img30" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Esplanada Monte Castelo-->
+        <div class="container hidden">
+            <span id="slide-img31"></span>
+            <span id="slide-img32"></span>
+            <span id="slide-img33"></span>
+            <div class="imagens">
+
+                <img id="slide-img31" src="../imagens/historico/Esplanada_Monte_Castelo1.jpg" class="imagem">
+                <img id="slide-img32" src="../imagens/historico/Esplanada_Monte_Castelo2.jpg" class="imagem">
+                <img id="slide-img33" src="../imagens/historico/Esplanada_Monte_Castelo3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img31" class="botaoHistorico"></a>
+                <a href="#slide-img32" class="botaoHistorico"></a>
+                <a href="#slide-img33" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <h1 id="timeline"></h1>
+        <div class="flex-parent">
+
+            <div class="input-flex-container">
+                <div class="input time active">
+                    <span class="" codigo-rota="Home" data-info="Apresentação"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="1" data-info="Companhia Paulista (Expressa)"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="2" data-info="Clube Jundiaiense"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="3" data-info="Catedral Nossa Senhora do Desterro"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="4" data-info="Museu Histórico e Cultural Solar do Barão"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="5" data-info="Antigo Mercado Municipal/Mercadão Ferroviários"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="6" data-info="Estação de Jundiaí"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="7" data-info="Complexo Educacional e Cultural Argos"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="8" data-info="Ponte Torta"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="9" data-info="Teatro Polytheama"></span>
+                </div>
+                <div class="input time">
+                    <span class="" codigo-rota="10" data-info="Esplanada Monte Castelo"></span>
+                </div>
+            </div>
+            <h1 id="timeline"></h1>
+            <div class="search-select">
+                <select id="selectDiv">
+                    <option value="p1">Apresentação</option>
+                    <option value="p2">Companhia Paulista</option>
+                    <option value="p3">Clube Jundiaiense</option>
+                    <option value="p4">Catedral Nossa Senhora do Desterro</option>
+                    <option value="p5">Museu Histórico e Cultural Solar do Barão</option>
+                    <option value="p6">Antigo Mercado Municipal/Mercadão Ferroviários</option>
+                    <option value="p7">Estação de Jundiaí</option>
+                    <option value="p8">Complexo Educacional e Cultural Argos/ Fábrica Argos</option>
+                    <option value="p9">Ponte Torta</option>
+                    <option value="p10">Teatro Polytheama</option>
+                    <option value="p11">Esplanada Monte Castelo</option>
+                </select>
+            </div>
+            <div class="description-flex-container">
+
+                <!--Apresentação-->
+                <div id="div1" class="container2">
+                    <p id="p1" class="paragrafo active">A Rota da Uva de Jundiaí é um lugar encantador para quem gosta
+                        de
+                        cultura, história e, é claro, vinho delicioso. Fica perto de São Paulo e é um dos principais
+                        pontos
+                        turísticos do estado, recebendo visitantes de todo o Brasil e do mundo.
+                        A fama da Rota da Uva se deve principalmente à sua tradição na produção de vinho. Há mais de um
+                        século, imigrantes italianos se estabeleceram em Jundiaí e começaram a cultivar uvas, tornando a
+                        região famosa por seus vinhos de qualidade. Hoje em dia, Jundiaí é reconhecida como uma das
+                        principais regiões produtoras de vinho no Brasil.
+                        Além dos vinhedos, a Rota da Uva também é conhecida por suas paisagens naturais e atrativos
+                        históricos. A região é linda, com colinas verdes e vinhedos espalhados por toda parte. Os
+                        visitantes
+                        podem fazer passeios pelas vinícolas, conhecer o processo de produção do vinho e experimentar os
+                        sabores únicos da região.
+                        Ao explorar a Rota da Uva, os turistas têm a chance de vivenciar a cultura italiana presente na
+                        região. Há festas típicas, comida tradicional e os moradores locais são muito acolhedores. Um
+                        evento
+                        imperdível é a Festa da Uva, que celebra a colheita das uvas com música, danças, exposições e, é
+                        claro, degustações dos vinhos produzidos ali.</p>
+                </div>
+
+
+                <!--Companhia Paulista-->
+                <div id="div2" class="container2 hidden">
+                    <p id="p2" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. União dos Ferroviários, 1760 – Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4589-6800.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Mediante agendamento.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://cultura.jundiai.sp.gov.br/espacos-culturais/expressa/">https://cultura.jundiai.sp.gov.br/espacos-culturais/expressa/</a>
+                        </li>
+                    </ul>
+
+                    O Expressa é um patrimônio material tombado em nível nacional pelo IPHAN. Atualmente, abriga várias
+                    Unidades de Gestão da Prefeitura, como Cultura, Mobilidade e Transporte, Assistência e
+                    Desenvolvimento Social, além de outras instituições como o Museu da Cia. Paulista, o Arquivo
+                    Histórico de Jundiaí, a Guarda Municipal, a Fundação Municipal de Ação Social, o Poupatempo e a
+                    Fatec Deputado Ary Fossen. O espaço inclui salas destinadas a ensaios, reuniões e encontros, além de
+                    uma sala com capacidade para 200 pessoas e um espaço reservado para exposições.
+                    </p>
+                </div>
+
+
+                <!--Clube Jundiaiense-->
+                <div id="div3" class="container2 hidden">
+                    <p id="p3" class="paragrafo">
+                    <ul>
+                        <li>
+                            Endereço: Rod. Ver. Geraldo Dias - Parque Centenário
+                        </li>
+                        <li>
+                            Telefone: (11) 4582-3220.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. a Sáb. das 6h às 23h. e Dom. das 6h às 21h.
+                        </li>
+                        <li>
+                            Site: <a href="https://clubejundiaiense.com.br">https://clubejundiaiense.com.br</a>
+                        </li>
+                    </ul>
+
+                    A sede central do Clube Jundiaiense, criada na década de 1940, continua sendo um importante marco
+                    social, cultural e esportivo na região central da cidade. Resultado da fusão do Cassino Jundiaiense,
+                    estabelecido no século 19, com a Sociedade Tênis Paulista, surgida no século 20, o clube desempenha
+                    um papel significativo na vida da comunidade. Seus festivais de arte, concursos carnavalescos,
+                    torneios esportivos e bailes são eventos marcantes que ocorrem ao lado de bares de música,
+                    restaurantes renomados e eventos nas praças, contribuindo para a efervescência cultural e social da
+                    região.
+
+                    </p>
+                </div>
+
+
+                <!--Catedral Nossa Senhora do Desterro-->
+                <div id="div4" class="container2 hidden">
+                    <p id="p4" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Praça Governador Pedro de Toledo, s/n - Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4586-0248.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. a Sex. 7h, 12h e 18h30, Sáb. às 18h30, Dom. 7h, 09h, 11h e
+                            18h30.
+                        </li>
+                        <li>
+                            Site: <a href="https://catedraljundiai.com.br/">https://catedraljundiai.com.br/</a>
+                        </li>
+                    </ul>
+
+                    Em 1651, teve início a construção da igreja que substituiria a primeira capela de Jundiaí, dedicada
+                    à Sagrada Família e com Nossa Senhora do Desterro como padroeira. Inicialmente construída em taipa
+                    de pilão e com tendências barroco-portuguesas, a igreja passou por uma grande reforma em 1886,
+                    seguindo o estilo Neogótico. Posteriormente, em 1921, o interior foi transformado com abóbadas
+                    ogivais, vitrais e afrescos do artista italiano Arnaldo Mecozzi. Outras reformas ocorreram ao longo
+                    dos anos, incluindo a ampliação da Cripta da Catedral. Entre 1997 e 2000, a Catedral passou por
+                    restauração completa. Atualmente, três bispos estão sepultados na Cripta: dom Gabriel Paulino Bueno
+                    Couto, dom Roberto Pinarello Almeida e dom Amaury Castanho.
+                    </p>
+                </div>
+
+
+                <!--Museu Histórico e Cultural Solar do Barão-->
+                <div id="div5" class="container2 hidden">
+                    <p id="p5" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: R. Barão de Jundiaí, 762 - Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4521-6259 / 4586-8414.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Jardins - Diariamente, das 10h às 17h. Museu fechado (manutenção).
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://cultura.jundiai.sp.gov.br/espacos-culturais/museu-historico-e-cultural-de-jundiai/">https://cultura.jundiai.sp.gov.br/espacos-culturais/museu-historico-e-cultural-de-jundiai/</a>
+                            Abriga atualmente o renomado Museu Histórico e Cultural de Jundiaí, que foi estabelecido na
+                            década
+                        </li>
+                    </ul>
+
+                    de 1960. O museu se destaca por suas exposições e pesquisas, oferecendo aos visitantes uma
+                    experiência enriquecedora. Além disso, o local possui belos jardins e atrações permanentes,
+                    proporcionando um ambiente encantador para explorar e desfrutar.
+                    </p>
+                </div>
+
+
+                <!--Antigo Mercado Municipal/Mercadão Ferroviários-->
+                <div id="div6" class="container2 hidden">
+                    <p id="p6" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: R. Barão de Jundiaí, 1093 - Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4521-6259 / 4586-8414.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Seg. a Sex. das 9h às 18h e Sab. das 9h às 13h30min.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://cultura.jundiai.sp.gov.br/espacos-culturais/centro-das-artes/">https://cultura.jundiai.sp.gov.br/espacos-culturais/centro-das-artes/</a>
+                        </li>
+                    </ul>
+
+                    O mercado agrícola municipal de Jundiaí, surgido no século 19, se tornou parte da identidade da
+                    cidade como a Terra da Uva. Em 1934, sediou a primeira Festa Vitivinícola e Industrial, celebrando a
+                    descoberta da uva Niagara Rosada. Posteriormente, o mercado foi transformado no Centro das Artes, um
+                    importante espaço público e cultural.
+                    </p>
+                </div>
+
+
+                <!--Estação de Jundiaí-->
+                <div id="div7" class="container2 hidden">
+                    <p id="p7" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Av. União dos Ferroviários, s/n.
+                        </li>
+                        <li>
+                            Telefone: 0800-0550121.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, 24h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://www.cptm.sp.gov.br/Pages/Home.aspx">https://www.cptm.sp.gov.br/Pages/Home.aspx</a>
+                        </li>
+                    </ul>
+
+                    A Estação Ferroviária de Jundiaí foi inaugurada em 16 de fevereiro de 1867 pela São Paulo Railway.
+                    Nos anos 1870, tornou-se ponto inicial da linha tronco da Companhia Paulista de Estradas de Ferro,
+                    sendo utilizada como estação de baldeação entre as duas linhas. Desde 1994, a estação é administrada
+                    pela CPTM e atualmente integra a Extensão Operacional da Linha 7-Rubi.
+
+                    </p>
+                </div>
+
+
+                <!--Complexo Educacional e Cultural Argos/ Fábrica Argos-->
+                <div id="div8" class="container2 hidden">
+                    <p id="p8" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Complexo Argos - Av. Dr. Cavalcanti, 396 - Centro, Jundiaí - SP
+                        </li>
+                        <li>
+                            Telefone: (11) 4587-3518.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, das 08:00 às 18:00.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://jundiai.sp.gov.br/educacao/complexo-argos/">https://jundiai.sp.gov.br/educacao/complexo-argos/</a>
+                        </li>
+                    </ul>
+
+                    Localizado no conjunto arquitetônico da antiga indústria têxtil "Argos", o complexo abrange uma área
+                    de 365.000 m² e passou por um processo de revitalização que preservou suas características
+                    arquitetônicas históricas. O espaço abriga importantes instituições, como o Centro Municipal de
+                    Educação de Jovens e Adultos, o Centro Municipal de Formação e Capacitação Permanentes do
+                    Magistério, o Centro Municipal de Informática, o Centro Municipal de Línguas, a Biblioteca Municipal
+                    Prof. Nelson Foot e a emissora de Televisão Educativa do Município.
+
+                    </p>
+                </div>
+
+
+                <!--Ponte Torta-->
+                <div id="div9" class="container2 hidden">
+                    <p id="p9" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Dr. Odil Campos Saes, junto ao início da Rua José do
+                        </li>
+                        <li>
+                            Patrocínio
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://turismo.jundiai.sp.gov.br/atrativos/patrimonio-historico/ponte-torta/">https://turismo.jundiai.sp.gov.br/atrativos/patrimonio-historico/ponte-torta/</a>
+                        </li>
+                    </ul>
+
+                    A Ponte Torta, também conhecida por outros nomes "Ponte Redonda", "Ponte do Arco" e "Ponte dos
+                    Bondes", foi construída para permitir a passagem de bondes e locomotivas Decauville. No passado, a
+                    região era afetada por enchentes, o que levou à realização de obras de contenção que comprometeram a
+                    estabilidade da ponte. Para evitar sua queda, um bloco de concreto foi adicionado à sua fundação.
+                    </p>
+                </div>
+
+
+                <!--Teatro Polytheama-->
+                <div id="div10" class="container2 hidden">
+                    <p id="p10" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Barão de Jundiaí, 176 – Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4586-2472 e (11) 4522-0770.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Ter. a Sex. das 10h às 20h;
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://cultura.jundiai.sp.gov.br/espacos-culturais/teatropolytheama/">https://cultura.jundiai.sp.gov.br/espacos-culturais/teatropolytheama/</a>
+                        </li>
+                    </ul>
+
+                    O Teatro Polytheama é um importante patrimônio histórico e cultural de Jundiaí. Fundado em 1911, é
+                    um dos poucos teatros centenários em atividade no país. Com capacidade para 1124 pessoas, possui uma
+                    sala de espetáculos chamada Deolinda Copelli, que oferece diferentes áreas de assentos. Seu palco,
+                    em estilo italiano, é espaçoso e possui infraestrutura adequada. Além disso, o teatro dispõe de três
+                    camarins para os artistas.
+                    </p>
+                </div>
+
+
+                <!--Esplanada Monte Castelo-->
+                <div id="div11" class="container2 hidden">
+                    <p id="p11" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: R. Vig. J. J. Rodrigues - Centro, Jundiaí - SP
+                        </li>
+                        <li>
+                            Telefone: (11) 4586-2472 e (11) 4522-0770.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, 24h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/centrohistorico/o-que-visitar/esplanada-monte-castelo/">https://rotasturisticas.jundiai.sp.gov.br/centrohistorico/o-que-visitar/esplanada-monte-castelo/</a>
+                        </li>
+                    </ul>
+
+                    Um espaço de contemplação foi criado em Jundiaí a partir de uma escadaria da década de 1910. Na
+                    década de 1940, o local foi dedicado aos soldados jundiaienses da Segunda Guerra Mundial. Com rampas
+                    e praças intermediárias, o antigo Morro do Grupo passou por melhorias de acessibilidade. Atualmente,
+                    o espaço apresenta uma diferença de vinte metros de desnível entre a parte alta e a parte baixa.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <footer id="rodape">
+            <p><a href="https://jundiai.sp.gov.br"> Prefeitura de Jundiaí</a> |<a href="https://www.anchieta.br">
+                    Unianchieta</a> | Desenvolvido por <a
+                    href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf">Conheça Jundiaí</a> | Todos os direitos
+                reservados</p>
+        </footer>
+
+</body>
+
+</html>

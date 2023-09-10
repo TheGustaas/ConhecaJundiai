@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/timelineCentro.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/pesquisa.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/timeline.js"></script>
+
+    <title>Onde Comer</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="icone1" src="../imagens/Anchieta2.png" alt="">
+            <h1>ONDE COMER</h1>
+            <img id="icone2" src="../imagens/Prefeitura2.png" alt="">
+        </header>
+        <div id="menu">
+            <a href="index.html" class="pagina-futura">Home</a>
+            <a href="rotasVisitar.html" class="pagina-futura">O que Visitar</a>
+            <a href="rotasComer.html" class="pagina-atual">Onde Comer</a>
+            <a href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf" target="_blank"
+                class="pagina-futura">Projeto</a>
+        </div>
+        <hr>
+        <h1 id="timeline"></h1>
+        <h1 id="tituloHistorico">Onde comer: Rota do Centro Histórico</h1>
+
+        <!--Apresentação-->
+        <div class="container">
+            <span id="slide-img1"></span>
+            <span id="slide-img2"></span>
+            <span id="slide-img3"></span>
+            <div class="imagens">
+                <img id="slide-img1" src="../imagens/historico/historicoComer-pontos.jpg" class="imagem">
+                <img id="slide-img2" src="../imagens/historico/historico_comer2.jpeg" class="imagem">
+                <img id="slide-img3" src="../imagens/historico/historico_comer3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img1" class="botaoHistorico"></a>
+                <a href="#slide-img2" class="botaoHistorico"></a>
+                <a href="#slide-img3" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Caiscanoa Bar e Restaurante-->
+        <div class="container hidden">
+            <span id="slide-img4"></span>
+            <span id="slide-img5"></span>
+            <span id="slide-img6"></span>
+            <div class="imagens">
+                <img id="slide-img4" src="../imagens/historico/Cais_Canoa1.jpg" class="imagem">
+                <img id="slide-img5" src="../imagens/historico/Cais_Canoa2.jpg" class="imagem">
+                <img id="slide-img6" src="../imagens/historico/Cais_Canoa3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img4" class="botaoHistorico"></a>
+                <a href="#slide-img5" class="botaoHistorico"></a>
+                <a href="#slide-img6" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Beatrice Boulangerie-->
+        <div class="container hidden">
+            <span id="slide-img7"></span>
+            <span id="slide-img8"></span>
+            <span id="slide-img9"></span>
+            <div class="imagens">
+                <img id="slide-img7" src="../imagens/historico/Beatrice1.jpg" class="imagem">
+                <img id="slide-img8" src="../imagens/historico/Beatrice2.jpg" class="imagem">
+                <img id="slide-img9" src="../imagens/historico/Beatrice3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img7" class="botaoHistorico"></a>
+                <a href="#slide-img8" class="botaoHistorico"></a>
+                <a href="#slide-img9" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Chopperia Palma-->
+        <div class="container hidden">
+            <span id="slide-img10"></span>
+            <span id="slide-img11"></span>
+            <span id="slide-img12"></span>
+            <div class="imagens">
+                <img id="slide-img10" src="../imagens/historico/Chopperia_Palma1.jpg" class="imagem">
+                <img id="slide-img11" src="../imagens/historico/Chopperia_Palma2.jpg" class="imagem">
+                <img id="slide-img12" src="../imagens/historico/Chopperia_Palma3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img10" class="botaoHistorico"></a>
+                <a href="#slide-img11" class="botaoHistorico"></a>
+                <a href="#slide-img12" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Restaurante Uhlen Haus-->
+        <div class="container hidden">
+            <span id="slide-img13"></span>
+            <span id="slide-img14"></span>
+            <span id="slide-img15"></span>
+            <div class="imagens">
+                <img id="slide-img13" src="../imagens/historico/Uhlen_Haus1.jpg" class="imagem">
+                <img id="slide-img14" src="../imagens/historico/Uhlen_Haus2.jpg" class="imagem">
+                <img id="slide-img15" src="../imagens/historico/Uhlen_Haus3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img13" class="botaoHistorico"></a>
+                <a href="#slide-img14" class="botaoHistorico"></a>
+                <a href="#slide-img15" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Cantina Jundiaiense-->
+        <div class="container hidden">
+            <span id="slide-img16"></span>
+            <span id="slide-img17"></span>
+            <span id="slide-img18"></span>
+            <div class="imagens">
+
+                <img id="slide-img16" src="../imagens/historico/Cantina_Jundiaiense1.jpg" class="imagem">
+                <img id="slide-img17" src="../imagens/historico/Cantina_Jundiaiense2.jpg" class="imagem">
+                <img id="slide-img18" src="../imagens/historico/Cantina_Jundiaiense3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img16" class="botaoHistorico"></a>
+                <a href="#slide-img17" class="botaoHistorico"></a>
+                <a href="#slide-img18" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Casablanca Restaurante-->
+        <div class="container hidden">
+            <span id="slide-img19"></span>
+            <span id="slide-img20"></span>
+            <span id="slide-img21"></span>
+            <div class="imagens">
+
+                <img id="slide-img19" src="../imagens/historico/Casa_Blanca1.jpg" class="imagem">
+                <img id="slide-img20" src="../imagens/historico/Casa_Blanca2.jpg" class="imagem">
+                <img id="slide-img21" src="../imagens/historico/Casa_Blanca3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img19" class="botaoHistorico"></a>
+                <a href="#slide-img20" class="botaoHistorico"></a>
+                <a href="#slide-img21" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <!--Pizzaria Monte Carlo-->
+        <div class="container hidden">
+            <span id="slide-img22"></span>
+            <span id="slide-img23"></span>
+            <span id="slide-img24"></span>
+            <div class="imagens">
+
+                <img id="slide-img22" src="../imagens/historico/Monte_Carlo1.jpg" class="imagem">
+                <img id="slide-img23" src="../imagens/historico/Monte_Carlo2.jpg" class="imagem">
+                <img id="slide-img24" src="../imagens/historico/Monte_Carlo3.jpg" class="imagem">
+            </div>
+            <div class="botoes">
+                <a href="#slide-img22" class="botaoHistorico"></a>
+                <a href="#slide-img23" class="botaoHistorico"></a>
+                <a href="#slide-img24" class="botaoHistorico"></a>
+            </div>
+        </div>
+
+        <h1 id="timeline"></h1>
+        <div class="flex-parent">
+
+            <div class="input-flex-container">
+                <div class="input time active">
+                    <span codigo-rota="Home" data-info="Apresentação"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="1" data-info="Caiscanoa Bar e Restaurante"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="2" data-info="Beatrice Boulangerie"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="3" data-info="Chopperia Palma"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="4" data-info="Restaurante Uhlen Haus"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="5" data-info="Cantina Jundiaiense"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="6" data-info="Casablanca Restaurante"></span>
+                </div>
+                <div class="input time">
+                    <span codigo-rota="7" data-info="Pizzaria Monte Carlo"></span>
+                </div>
+            </div>
+            <h1 id="timeline"></h1>
+            <div class="search-select">
+                <select id="selectDiv">
+                    <option value="p1">Apresentação</option>
+                    <option value="p2">Caiscanoa Bar e Restaurante</option>
+                    <option value="p3">Beatrice Boulangerie</option>
+                    <option value="p4">Chopperia Palma</option>
+                    <option value="p5">Restaurante Uhlen Haus</option>
+                    <option value="p6">Cantina Jundiaiense</option>
+                    <option value="p7">Casablanca Restaurante</option>
+                    <option value="p8">Pizzaria Monte Carlo</option>
+                </select>
+            </div>
+            <div class="description-flex-container">
+
+                <!--Apresentação-->
+                <div id="div1" class="container2">
+                    <p id="p1" class="paragrafo active">A Rota da Uva de Jundiaí é um lugar encantador para quem gosta
+                        de
+                        cultura, história e, é claro, vinho delicioso. Fica perto de São Paulo e é um dos principais
+                        pontos
+                        turísticos do estado, recebendo visitantes de todo o Brasil e do mundo.
+                        A fama da Rota da Uva se deve principalmente à sua tradição na produção de vinho. Há mais de um
+                        século, imigrantes italianos se estabeleceram em Jundiaí e começaram a cultivar uvas, tornando a
+                        região famosa por seus vinhos de qualidade. Hoje em dia, Jundiaí é reconhecida como uma das
+                        principais regiões produtoras de vinho no Brasil.
+                        Além dos vinhedos, a Rota da Uva também é conhecida por suas paisagens naturais e atrativos
+                        históricos. A região é linda, com colinas verdes e vinhedos espalhados por toda parte. Os
+                        visitantes
+                        podem fazer passeios pelas vinícolas, conhecer o processo de produção do vinho e experimentar os
+                        sabores únicos da região.
+                        Ao explorar a Rota da Uva, os turistas têm a chance de vivenciar a cultura italiana presente na
+                        região. Há festas típicas, comida tradicional e os moradores locais são muito acolhedores. Um
+                        evento
+                        imperdível é a Festa da Uva, que celebra a colheita das uvas com música, danças, exposições e, é
+                        claro, degustações dos vinhos produzidos ali.</p>
+                </div>
+
+
+                <!--Caiscanoa Bar e Restaurante-->
+                <div id="div2" class="container2 hidden">
+                    <p id="p2" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Eduardo Tomanik, 262 – Chácara Urbana – Jundiaí/SP
+                        </li>
+                        <li>
+                            Telefone: (11) 4523-0043.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Qui. e Sex. das 18h às 22h, Sáb. das 12h às 16h e das 18h às 22h e
+                            Dom.
+                        </li>
+                        <li>
+                            Site: <a href="https://caiscanoa.com/">https://caiscanoa.com/</a>
+                        </li>
+                    </ul>
+
+                    O Caiscanoa, inaugurado em julho de 2018, é o primeiro restaurante em Jundiaí especializado em
+                    peixes e frutos do mar. Além disso, o menu inclui pratos típicos da cozinha brasileira e
+                    internacional, preparados de forma artesanal, utilizando ingredientes frescos.
+                    </p>
+                </div>
+
+
+                <!--Beatrice Boulangerie-->
+                <div id="div3" class="container2 hidden">
+                    <p id="p3" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Eduardo Tomanik, 193 – Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4807-5777 / 4807-5778.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente das 6h às 22h
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://rotasturisticas.jundiai.sp.gov.br/centrohistorico/onde-comer/beatrice-boulangerie-eduardo-tomanik/">https://rotasturisticas.jundiai.sp.gov.br/centrohistorico/onde-comer/beatrice-boulangerie-eduardo-tomanik/</a>
+
+                        </li>
+                    </ul>
+
+                    A Beatrice Boulangerie é uma padaria e confeitaria em Jundiaí que oferece um ambiente requintado e
+                    acolhedor. Com opções deliciosas para o café da manhã, almoço, café da tarde e happy hour, é o lugar
+                    perfeito para desfrutar de momentos especiais com amigos e familiares.
+
+                    </p>
+                </div>
+
+
+                <!--Chopperia Palma-->
+                <div id="div4" class="container2 hidden">
+                    <p id="p4" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Abolição, 130 – Centro - Jundiaí/SP
+                        </li>
+                        <li>
+                            Telefone: (11) 4521-7731.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Ter a Qui. das 17h às 00h, Sex. e Sáb. das 11h às 02h, Dom. das
+                            11h às 16h.
+                        </li>
+                        <li>
+                            Site: <a href="https://chopperiapalma.com.br/">https://chopperiapalma.com.br/</a>
+                        </li>
+                    </ul>
+
+                    A Chopperia Palma é um local tradicional onde amigos se encontram para desfrutar de um excelente
+                    chopp, gastronomia saborosa e conversas animadas. Ao longo dos anos, mesmo com o crescimento da
+                    cidade, o Palma permanece como um bar clássico, aconchegante e perfeito para reunir a galera em um
+                    fim de tarde.
+                    </p>
+                </div>
+
+
+                <!--Restaurante Uhlen Haus-->
+                <div id="div5" class="container2 hidden">
+                    <p id="p5" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Marechal Deodoro da Fonseca, 702 Centro - Jundiaí/SP
+                        </li>
+                        <li>
+                            Telefone: (11) 4521-0917 / (11) 4521-9836.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Sáb., Dom. e feriados das 11h às 15h, Ter. a Qui. das 18h às
+                            22:30h, Sex.
+                            a Sáb. das 18:30h às 23h.
+                        </li>
+                        <li>
+                            Site: <a href="https://alemaodamarechal.com.br/">https://alemaodamarechal.com.br/</a>
+                        </li>
+                    </ul>
+
+                    O Uhlen Haus é um renomado restaurante em Jundiaí, conhecido por sua cozinha alemã e serviço
+                    completo à la carte. Com mais de 38 anos de tradição, nosso objetivo principal é a satisfação dos
+                    clientes, proporcionando uma experiência gastronômica de qualidade com uma equipe de profissionais
+                    experientes.
+                    </p>
+                </div>
+
+
+                <!--Cantina Jundiaiense-->
+                <div id="div6" class="container2 hidden">
+                    <p id="p6" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Zacarias de Góes, 223 - Centro - Jundiaí/ SP
+                        </li>
+                        <li>
+                            Telefone: (11) 4586-2060.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Ter a Sex: 11h às 14:30 e 18 às 22h, Sab. das 11h às 15h e 18h às
+                            22:30h e
+                            Dom: 11h às 15h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://www.cantinajundiaiense.com.br/">https://www.cantinajundiaiense.com.br/</a>
+                        </li>
+                    </ul>
+
+                    A Cantina Jundiaiense é um restaurante tradicional em Jundiaí desde 1949, oferecendo um menu
+                    diversificado com pratos à la carte. Sob nova direção desde 2009, mantém a tradição do cardápio
+                    generoso a preços justos, com instalações modernas e confortáveis. O restaurante também oferece
+                    serviço de delivery com embalagens adequadas para entrega. Venha desfrutar da tradição e qualidade
+                    da Cantina Jundiaiense.
+                    </p>
+                </div>
+
+
+                <!--Casablanca Restaurante-->
+                <div id="div7" class="container2 hidden">
+                    <p id="p7" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Engenheiro Monlevade, 720 Centro
+                        </li>
+                        <li>
+                            Telefone: (11) 4586-0326 | (11) 4586-0405.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, das 11h às 15h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://turismo.jundiai.sp.gov.br/gastronomia/self-service/casa-blanca-restaurante-e-pizzaria/">https://turismo.jundiai.sp.gov.br/gastronomia/self-service/casa-blanca-restaurante-e-pizzaria/</a>
+                        </li>
+                    </ul>
+
+                    O Restaurante CasaBlanca é um estabelecimento tradicional em Jundiaí, com mais de 34 anos de
+                    experiência. Oferecemos pratos de alta qualidade, com sabores irresistíveis e temperos caseiros
+                    especiais. Nosso ambiente acolhedor proporciona momentos agradáveis para desfrutar de deliciosas
+                    carnes, peixes e acompanhamentos. Venha nos visitar e se sentir em casa no Restaurante CasaBlanca.
+                    </p>
+                </div>
+
+
+                <!--Pizzaria Monte Carlo-->
+                <div id="div8" class="container2 hidden">
+                    <p id="p8" class="paragrafo">
+                    <ul class="topicos">
+                        <li>
+                            Endereço: Rua Vigário João José Rodrigues, 765 · Jundiaí, Jundiaí, SP,
+                            Brazil
+                        </li>
+                        <li>
+                            Telefone: (11) 4526-3855.
+                        </li>
+                        <li>
+                            Horário de funcionamento: Diariamente, das 18h às 00h.
+                        </li>
+                        <li>
+                            Site: <a
+                                href="https://www.facebook.com/montecarlojundiai/">https://www.facebook.com/montecarlojundiai/</a>
+                        </li>
+                    </ul>
+
+                    A Pizzaria Monte Carlo é o lugar perfeito para os amantes de pizza. Com um extenso cardápio que
+                    conta com mais de 80 opções de sabores, temos o prazer de oferecer as melhores pizzas da região.
+                    Nossas pizzas são preparadas com ingredientes frescos e selecionados, garantindo um sabor
+                    incomparável. Venha desfrutar de uma experiência gastronômica única na Pizzaria Monte Carlo e
+                    delicie-se com as nossas deliciosas pizzas.
+
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <footer id="rodape">
+            <p><a href="https://jundiai.sp.gov.br"> Prefeitura de Jundiaí</a> |<a href="https://www.anchieta.br">
+                    Unianchieta</a> | Desenvolvido por <a
+                    href="../pdfs/Prática Extensionista - Conheça Jundiaí.pdf">Conheça Jundiaí</a> | Todos os direitos
+                reservados</p>
+        </footer>
+
+</body>
+
+</html>

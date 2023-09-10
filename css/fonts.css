@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'FonteCabecalho';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fontes/Waffle.otf');
+}
+
+@font-face {
+    font-family: 'FonteCorpo';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fontes/Comforta.ttf');
+}
+
+header h1 {
+    font-family: 'FonteCabecalho';
+    font-size: 3.5em;
+}
+
+section h2 {
+    font-family: 'FonteCabecalho';
+    font-size: 2.5em;
+}
+
+section p {
+    font-family: 'FonteCorpo';
+    font-size: 1.4em;
+}
+
+footer p {
+    font-family: 'FonteCorpo';
+    font-size: .9em;
+}
+
+aside p {
+    font-family: 'FonteCorpo';
+}
+
+td a {
+    font-family: 'FonteCorpo';
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+div span {
+    font-family: 'FonteCorpo';
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+aside h3 {
+    font-family: 'FonteCabecalho';
+    font-size: 2em;
+}
+
+
+div#menu a {
+    font-family: 'FonteCorpo';
+    font-weight: bold;
+}
+
+h1#tituloUva {
+    font-family: 'FonteCabecalho';
+    text-align: center;
+    color: #533A71;
+}
+
+h1#tituloTerra {
+    font-family: 'FonteCabecalho';
+    text-align: center;
+    color: #5ca47a;
+}
+
+h1#tituloHistorico {
+    font-family: 'FonteCabecalho';
+    text-align: center;
+    color: #0072bc;
+}
+
+div.container2 {
+    font-family: 'FonteCorpo';
+    font-weight: bold;
+}
+
+div p {
+    font-family: 'FonteCorpo';
+}
+
+
+select {
+    font-family: 'FonteCorpo';
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 150%;
+        /* Tamanho de fonte ajustado para telas menores */
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        font-size: .8em;
+    }
+
+    footer p {
+        font-size: .5em;
+    }
+
+    aside p {
+        font-size: 1em;
+    }
+
+    aside h3 {
+        font-size: 1.2em;
+    }
+
+    div#menu a {
+        font-family: 'FonteCorpo';
+        font-weight: bold;
+        font-size: 15px;
+        padding: .5rem .5rem;
+    }
+}
